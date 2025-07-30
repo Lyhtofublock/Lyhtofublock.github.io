@@ -1,8 +1,18 @@
-.page{width:80vw;height:80vh;border:1px solid red}
-nav ul li{display:inline;}
-/* #page1{background:red}
-#page2{background:green}
-#page3{background:blue} */
+*{text-align: center; background-color: orange;}
+@keyframes open {
+    from {height:0px}
+    to {height: 600px}
+}
+@keyframes fadein {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+}
+.page{width:90%;height:600px;border:1px solid red; animation-name: open; animation-duration: 0.5s; margin: 70px; margin-top: 0;}
+p{animation-name: fadein; animation-duration: 2s;}
+nav ul li{display:inline-block;}
+button{background-color: rgb(255, 93, 93); height: 45px; }
+nav button{transition: 0.4s}
+nav button:hover{background-color: greenyellow}
 #hamIcon{display:none;}
 @media (max-width:800px){
 /*make a menu items vertical*/
@@ -11,6 +21,16 @@ nav ul li{display:block;}
 #hamIcon{display:block;}
 /*hide the menu item list*/
 nav ul{display:none;}
+
+button{width: 150px}
+
+.page{margin: 0;}
+
 }
 /*to unhide menu items*/
 .menuShow{display:block;}
+fieldset{height:70px; border-radius: 10000px; background-color:rgb(255, 212, 71)}
+input{margin-left:10px}
+
+#submitbtn{border-radius: 70px; height: 40px; background-color:rgb(23, 216, 132)}
+.noshow{display:none}
