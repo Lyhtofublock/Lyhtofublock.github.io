@@ -11,6 +11,8 @@
 <body>
     <header>
         <h1>Information about the sensation known as Spiciness</h1>
+        <button id="btnFS">Fullscreen</button>
+        <button id="btnWS">Exit Fullscreen</button>
     </header>
     <nav> <!--menu system-->
         <button id="hamIcon">Open Menu</button>
@@ -19,34 +21,70 @@
             <li><button id="page2btn">Why does spiciness exist?</button></li>
             <li><button id="page3btn">The Scoville scale</button></li>
             <li><button id="page4btn">What counteracts spice</button></li>
-            <li><button id="page5btn">Why some people enjoy eating spiciness</button></li>
+            <li><button id="page5btn">Why people eat spice</button></li>
+            <li><button id="page6btn">Activities</button></li>
+            <li><button id="closebtn">Close</button></li>
         </ul>
     </nav>
     <main id="pagecontainer">
         <section class="page" id="page1">
-            The feeling of spiciness comes from 
+            <p>The feeling of spiciness comes from a chemical called capsaicin, which releases as a fine spray when you
+                bit into food that contains it.</p>
+            <p>It latches onto and triggers your heat receptors, making your nervous system think that you are
+                overheating. That, is the spiciness we feel. </p>
+            <p><img src="images/fire.jpg" height="300px" alt="fire"></p>
         </section>
         <section class="page" id="page2">
-            <p>Pepper plants have evolved to have a chemical known as capsaicin, which deters mammals from eating it.</p>
-            <p>This is because mammals have molars, which grind and destroy seeds, preventing them from germinating and growisng into more pepper plants.</p>
-            <p>Birds, which are not affected by capsaicin, will be able to spread more seeds from the pepper plants, resulting in more of these plants growing.</p>
+            <p>Pepper plants have evolved to have a chemical known as capsaicin, which deters mammals from eating it.
+            </p>
+            <p>This is because mammals have molars, which grind and destroy seeds, preventing them from germinating and
+                growing into more pepper plants.</p>
+            <p>Birds, which are not affected by capsaicin, will be able to spread more seeds from the pepper plants,
+                resulting in more of these plants growing.</p>
         </section>
         <section class="page" id="page3">
-            <p>The scoville scale is the measurement of spiciness in chili peppers and other substances. The unit of measurement used for it is Scoville heat units.</p>
-            <p>It was created by the American pharmacist Wilbur Scoville, and is a subjective assessment based on the sensitivity of people who are experienced in eating hot chilis.</p>
+            <p>The scoville scale is the measurement of spiciness in chili peppers and other substances. The unit of
+                measurement used for it is Scoville heat units.</p>
+            <p>It was created by the American pharmacist Wilbur Scoville, and is a subjective assessment based on the
+                sensitivity of people who are experienced in eating hot chilis.</p>
 
         </section>
         <section class="page" id="page4">
             <p>When you want to wash away the spiciness, usually you would drink water, or milk.</p>
             <p>If you have done this before, you would have noticed that milk does the job much easier than water.</p>
-            <p>This is because capsaicin is hydrophobic, which means it repels water, so water cannot easily wash away capsaicin and get rid of the pain.</p>
+            <p>This is because capsaicin is hydrophobic, which means it repels water, so water cannot easily wash away
+                capsaicin and get rid of the pain.</p>
             <p>Milk contains fat, which can dissolve the fat soluble capsaicin, and casein.</p>
-            <p>Casein is a protein which helps to break down the bonds capsaicin forms on your nerve receptors, and help wash the spiciness away.</p>
+            <p>Casein is a protein which helps to break down the bonds capsaicin forms on your nerve receptors, and help
+                wash the spiciness away.</p>
         </section>
         <section class="page" id="page5">
-            spicy yum
+            <p>So capsaicin is an irritant. Why do many people still like consuming it?</p>
+            <p>That is because </p>
+        </section>
+        <section class="page" id="page6">
+            <h2>Quiz time!</h2>
+            <fieldset>
+                <legend>question 1</legend>
+                <input type="radio" name="q1" value="a1"> a1
+                <input type="radio" name="q1" value="a2"> a2
+                <input type="radio" name="q1" value="a3"> a3
+                <input type="radio" name="q1" value="a4"> a4
+            </fieldset>
+            <fieldset>
+                <legend>question 2</legend>
+                <input type="radio" name="q2" value="a1"> a1
+                <input type="radio" name="q2" value="a2"> a2
+                <input type="radio" name="q2" value="a3"> a3
+                <input type="radio" name="q2" value="a4"> a4
+            </fieldset>
+            <button id="submitbtn"> Submit </button>
+            <p id="score" class="noshow">Score: 0</p>
         </section>
     </main>
+    <footer>
+        <img src="images/qr.png" alt="qr code">
+    </footer>
 </body>
 
 </html>
