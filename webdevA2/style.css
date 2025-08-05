@@ -1,11 +1,11 @@
 *{text-align: center; background-color: orange;}
 @keyframes open {
     from {height:0px}
-    to {height: 400px}
+    to {height: 500px}
 }
 @keyframes opene {
     from {height:0px}
-    to {height: 600px}
+    to {height: 800px}
 }
 @keyframes openmore {
     from {height:0px}
@@ -15,8 +15,8 @@
     from {opacity: 0%;}
     to {opacity: 100%}
 }
-.page{width:90%;height:400px;border:5px solid red; border-radius: 10px; animation-name: open; animation-duration: 0.5s; margin: 70px; margin-top: 0;}
-#page3{animation-name: opene; height: 600px}
+.page{width:90%;height:500px;border:5px solid red; border-radius: 10px; animation-name: open; animation-duration: 0.5s; margin: 70px; margin-top: 0;}
+#page3{animation-name: opene; height: 800px}
 #page6{animation-name: openmore; height: 950px; }
 p{animation-name: fadein; animation-duration: 2s; font-size: 20px;}
 nav ul li{display:inline-block;}
@@ -84,4 +84,5 @@ p{font-size: 16px; width: 90%; margin-top: 10px}
 #page5 .image {margin-right: 190px; margin-top: 10px}
 
 }
+
 
